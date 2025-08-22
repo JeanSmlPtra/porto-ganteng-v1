@@ -216,14 +216,14 @@ export default function Home() {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
       {/* WhatsApp */}
       <a
-        href="https://wa.me/6281234567890"
+        href="https://wa.me/6285806572405"
         target="_blank"
         rel="noopener noreferrer"
         className="flex flex-col items-center justify-center p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow hover:shadow-lg hover:scale-105 transition"
       >
         <FaWhatsapp className="text-green-400 text-4xl mb-3" />
         <span className="font-semibold">WhatsApp</span>
-        <p className="text-sm text-gray-300">+62 812 3456 7890</p>
+        <p className="text-sm text-gray-300">+62 858 0657 2405</p>
       </a>
 
       {/* Instagram */}
