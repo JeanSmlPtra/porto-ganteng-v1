@@ -8,7 +8,34 @@ export default function AboutSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   const items = [
-    { title: "Tentang Saya", content: "Saya seorang Lulusan SMKN 8 Jember Jurusan Rekayasa Perangkat Lunak(RPL). Dibekali dengan ilmu pemrograman dengan bahasa pemrograman utama php, dengan framework Laravel. Lulus pada Tahun 2025, dan bergelut di dunia IT selama 3 Tahun" },
+    { 
+      title: "Tentang Saya", 
+      content: (
+        <div className="space-y-3 text-sm">
+          <div className="grid grid-cols-3">
+            <p className="font-medium">Nama:</p>
+            <p className="col-span-2">Jean Samuel Putra</p>
+          </div>
+          <div className="grid grid-cols-3">
+            <p className="font-medium">Usia:</p>
+            <p className="col-span-2">18 Tahun</p>
+          </div>
+          <div className="grid grid-cols-3">
+            <p className="font-medium">Alamat:</p>
+            <p className="col-span-2">Perdin PG Semboro Blok A Gang 4</p>
+          </div>
+          <div>
+            <p className="font-medium mb-1">Tentang:</p>
+            <p className="leading-relaxed text-justify">
+              Saya seorang lulusan SMKN 8 Jember jurusan Rekayasa Perangkat Lunak (RPL). 
+              Dibekali dengan ilmu pemrograman dengan bahasa utama PHP dan framework Laravel. 
+              Lulus pada tahun 2025, dengan pengalaman bergelut di dunia IT selama 3 tahun.
+            </p>
+          </div>
+        </div>
+      ) 
+    }
+    ,
     { 
         title: "Bahasa", 
         content: (
