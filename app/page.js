@@ -97,12 +97,21 @@ export default function Home() {
             <HeroTitleWrapper />
 
             {/* Tombol */}
-            <a
-              href="#projects"
-              className="px-6 py-3 my-20 bg-gray-600/30 text-white rounded-lg shadow transition"
-            >
-              Check Me Up
-            </a>
+            <div className="flex gap-4 my-20">
+              <a
+                href="#projects"
+                className="px-6 py-3 bg-gray-600/30 text-white rounded-lg shadow transition"
+              >
+                Check Me Up
+              </a>
+
+              <a
+                href="/ecaa"
+                className="px-6 py-3 bg-pink-600/30 text-white rounded-lg shadow transition hover:bg-pink-500"
+              >
+                For Ecaa
+              </a>
+            </div>
           </div>
         </section>
 
