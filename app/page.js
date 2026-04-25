@@ -93,7 +93,7 @@ export default function Home() {
 
           {/* HeroTitle + Button (selalu center) */}
           <div className="flex flex-col items-center gap-6 mt-12">
-            <span className="text-xl">I&apos;m</span>
+            <span className="text-xl relative -top-9">I&apos;m</span>
             <HeroTitleWrapper />
 
             {/* Tombol */}
@@ -103,13 +103,6 @@ export default function Home() {
                 className="px-6 py-3 bg-gray-600/30 text-white rounded-lg shadow transition"
               >
                 Check Me Up
-              </a>
-
-              <a
-                href="/ecaa"
-                className="px-6 py-3 bg-pink-600/30 text-white rounded-lg shadow transition hover:bg-pink-500"
-              >
-                For Ecaa
               </a>
             </div>
           </div>
